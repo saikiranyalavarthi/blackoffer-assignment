@@ -1,0 +1,46 @@
+/* Styling for the dashboard container */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for the dashboard title */
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each data item */
+.data-item {
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 800px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin-left: 300px;
+
+  
+}
+
+.data-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.data-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.data-item a {
+  color: #007bff;
+}
+
+.data-item a:hover {
+  text-decoration: underline;
+}
